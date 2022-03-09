@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <title>Flexbox e HTML5</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if (document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/img/logo-branca.png"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="">Produtos</a></li>
+                        <li><a href="">Quem somos</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Suporte</a></li>
+                        <li><a href="">Trabalhe conosco</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container">
+            <div class="banner-headline">
+                <h1>PK Informática</h1>
+            </div>
+            <div class="banner-options column">
+                <div class="banner1">
+                    <figure>
+                        <a href="frontend.html"><img src="assets/img/fronte.png"></a>
+                    </figure>    
+                </div>
+                <div class="banner2">
+                    <figure>
+                        <a href="bd.html"><img src="assets/img/bd.png"></a>
+                    </figure>  
+                </div>
+                <div class="banner3">
+                    <figure>
+                        <a href="backend.html"><img src="assets/img/back.png"></a>
+                    </figure>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Produtos mais pesquisados</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="produto">
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                        </div>
+                        <div class="produto">
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                        </div>
+                        <div class="produto">
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                        </div>
+                        <div class="produto">
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                            <figure>Foto</figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Categorias</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="categoria">
+                            Hardwares
+                        </div>
+                        <div class="categoria">
+                            Periféricos
+                        </div>
+                        <div class="categoria">
+                            Monitores
+                        </div>
+                        <div class="categoria">
+                            Cadeiras
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    ...
+                </div>
+                <div class="fm_2">
+                    ...
+                </div>
+                <div class="fm_3">
+                    ...
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_area_item">
+                    ...
+                </div>
+                <div class="footer_area_item">
+                    ...
+                </div>
+                <div class="footer_area_item">
+                    ...
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
