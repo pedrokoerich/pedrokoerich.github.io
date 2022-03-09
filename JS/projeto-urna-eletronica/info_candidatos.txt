@@ -1,8 +1,7 @@
-*///Vereadores
+//Vereadores
 nome: Fulano de Tal, nº: 38111, partido: ABC;
 nome: Beltrano da Silva, nº: 77222, partido: DEFG;
 
 //Prefeitos
 nome: Ciclano, vice: Cic, nº: 99, partido: ABC;
 nome: Zulano, vice: Zul, nº: 84, partido: QUERTY;
-/*
